@@ -1,0 +1,47 @@
+--Timestamp:2000-01-01 02:16:01.485  ReqLogFileCounter:783 ONVIF REQUEST---------------------------
+<ns1:Envelope xmlns:ns1="http://www.w3.org/2003/05/soap-envelope" xmlns:ns2="http://www.onvif.org/ver10/media/wsdl" xmlns:ns3="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:ns4="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:ns5="http://www.onvif.org/ver10/schema" xmlns:ns6="http://docs.oasis-open.org/wsrf/bf-2" xmlns:ns7="http://www.w3.org/2005/08/addressing" xmlns:ns8="http://docs.oasis-open.org/wsn/b-2" xmlns:ns9="http://docs.oasis-open.org/wsn/t-1" xmlns:ns10="http://www.w3.org/2004/08/xop/include" xmlns:xmime="http://www.w3.org/2005/05/xmlmime">
+<ns1:Header>
+<ns4:Security>
+<ns4:UsernameToken>
+<ns4:Username>admin
+</ns4:Username>
+<ns4:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordDigest">DHbs98dqGoy70hP0/fPItnWD3Zc=
+</ns4:Password>
+<ns4:Nonce EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary">ZgbZfp33TNlzuVl6nAzaiA==
+</ns4:Nonce>
+<ns3:Created>2000-01-01T02:15:57.779Z
+</ns3:Created>
+</ns4:UsernameToken>
+</ns4:Security>
+</ns1:Header>
+<ns1:Body>
+<ns2:GetCompatibleVideoAnalyticsConfigurations>
+<ns2:ProfileToken>VideoXpert1S
+</ns2:ProfileToken>
+</ns2:GetCompatibleVideoAnalyticsConfigurations>
+</ns1:Body>
+</ns1:Envelope>
+--EndofMessage---------------------------
+
+
+--Timestamp:2000-01-01 02:16:01.867  ReqLogFileCounter:784 ONVIF REQUEST---------------------------
+<ns1:Envelope xmlns:ns1="http://www.w3.org/2003/05/soap-envelope" xmlns:ns2="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:ns3="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:ns4="http://www.onvif.org/ver10/schema" xmlns:ns5="http://www.onvif.org/ver10/media/wsdl" xmlns:ns6="http://docs.oasis-open.org/wsrf/bf-2" xmlns:ns7="http://www.w3.org/2005/08/addressing" xmlns:ns8="http://docs.oasis-open.org/wsn/b-2" xmlns:ns9="http://docs.oasis-open.org/wsn/t-1" xmlns:ns10="http://www.w3.org/2004/08/xop/include" xmlns:xmime="http://www.w3.org/2005/05/xmlmime">
+<ns1:Header>
+<ns3:Security>
+<ns3:UsernameToken>
+<ns3:Username>admin
+</ns3:Username>
+<ns3:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordDigest">7Q7EJrDdlr3Hd/cq/aRaDwVaARU=
+</ns3:Password>
+<ns3:Nonce EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary">u7s5djS/qrzSWm2fsZ0+Gg==
+</ns3:Nonce>
+<ns2:Created>2000-01-01T02:15:58.162Z
+</ns2:Created>
+</ns3:UsernameToken>
+</ns3:Security>
+</ns1:Header>
+<ns1:Body>
+<ns5:GetVideoAnalyticsConfigurations/>
+</ns1:Body>
+</ns1:Envelope>
+--EndofMessage---------------------------
